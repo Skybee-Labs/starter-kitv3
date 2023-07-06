@@ -1,4 +1,3 @@
-
 /*-- -------------------------- -->
 <---       Side By Side         -->
 <--- -------------------------- -*/
@@ -7,6 +6,7 @@
 @media only screen and (min-width: 0em) {
     #sidebyside {
         padding: 50px 0;
+
         .container {
             display: flex;
             justify-content: center;
@@ -57,7 +57,7 @@
             margin: auto;
             width: 611/16em;
             height: 861/16em;
-            font-size:~"min(1.4vw, 1em)"; // scales the image-box down
+            font-size: ~"min(1.4vw, 1em)"; // scales the image-box down
 
             &:before {
                 content: '';
@@ -85,7 +85,7 @@
                 top: -226/16em;
                 right: -109/16em;
                 z-index: -1;
-             }
+            }
 
             img {
                 position: absolute;
@@ -104,12 +104,13 @@
     #sidebyside {
         padding: 100/16em 0;
     }
-}   
+}
 
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
     #sidebyside {
         padding: 150/16em 0;
+
         .container {
             max-width: 1391/16em;
             flex-direction: row;
@@ -176,7 +177,7 @@
 
         .title {
             font-weight: 900;
-            font-size:~"min(9vw, 3em)";
+            font-size: ~"min(9vw, 3em)";
             line-height: 58/48;
             color: #fff;
             position: relative;
@@ -209,9 +210,11 @@
     #cta {
         position: relative;
         margin-top: 100/16em;
+
         &:before {
             display: none;
         }
+
         &:after {
             content: '';
             position: absolute;
@@ -227,7 +230,8 @@
             left: 50%;
             transform: translateX(-50%);
             z-index: -3;
-         }
+        }
+
         .container {
             width: 90.0625%;
             margin: auto;

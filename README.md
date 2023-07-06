@@ -20,8 +20,17 @@ https://www.oakharborwebdesigns.com/blog/2020/december/how-to-add-dark-mode-to-a
 
 In the LESS file (dark.less), choose the screen size you want to target and inside the body.dark-mode brackets just start adding you new style declarations for dark mode and that’s it!
 
+# GETTING STARTED
 
-# SET UP LESS 
+## OPTION 2 USING LESS-WATCH-COMPILER
+
+  1. `npm install`
+  2. `npm run less-compile`
+  3. `docker-compose up -d`
+
+Go to http://localhost:8001/ in your browser.
+
+## OPTION 2 USING KOALA-APP
 
   This new starter kit is based on ems for more responsive design.  I have utilized the LESS preprocessor to use its ability to do em calculations.  I use the Koala App to   choose the css file I want to watch and I click the .less files I want to auto compile and hit the compile button.  This will now continuously watch for changes in your .less file inside the css folder and compile the .less into it's own .css file to load instantly on save every time in your local server. 
 
@@ -52,7 +61,6 @@ In the LESS file (dark.less), choose the screen size you want to target and insi
   npm install less
 
   Now you have LESS on your machine!  Hopefully that wasn't too bad.  It was a little tricky for me to get started too but I used the resources I linked here to figure it out.
-
 
 
 
