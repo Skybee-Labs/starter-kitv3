@@ -15,4 +15,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/var/www/html
+      - ./static:/var/www/html/
